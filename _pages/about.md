@@ -6,7 +6,7 @@ title: <strong>Daniel</strong> Pastor
 
 profile:
   align: right
-  image: JPL_poster.jpg
+  image: JPL_poster_2.jpg
   address: >
     <p>205 Gates Thomas</p>
     <p>1200 E California Blvd</p>
@@ -16,4 +16,4 @@ news: false
 social: true
 ---
 
-I am graduate student in Robotics at Caltech. 
+I am a graduate student in Robotics at Caltech.  My current interests are efficient control techniques using modern learning methods. 
