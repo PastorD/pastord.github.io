@@ -6,7 +6,7 @@ title: <strong>Daniel</strong> Pastor
 
 profile:
   align: right
-  image: JPL_poster_2.jpg
+  image: barcelona.jpeg
   address: >
     <p>205 Gates Thomas</p>
     <p>1200 E California Blvd</p>
