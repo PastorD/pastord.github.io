@@ -16,4 +16,4 @@ news: false
 social: true
 ---
 
-I am a graduate student in Robotics at Caltech.  My current interests are efficient control techniques using modern learning methods. 
+Broad experience in applying estimation and control techniques for robotic applications, covering algorithm development, software implementation and hardware prototyping. My current interest is efficient control techniques using modern learning methods. Currently finishing a PhD at Caltech, estimated graduation June 2020.
