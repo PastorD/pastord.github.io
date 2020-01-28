@@ -85,6 +85,9 @@ plugins:
     - jekyll/scholar
     - jemoji
 
+plugins: [jekyll-youtube]
+    # This will require each of these gems automatically.
+
 # Jekyll-Scholar
 scholar:
 

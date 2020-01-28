@@ -30,7 +30,7 @@ description: Featured projects
     <div class="thumbnail">
         <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
+        <img style='height: 100%; width: 100%; object-fit: contain' class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
