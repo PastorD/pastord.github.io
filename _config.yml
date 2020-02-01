@@ -85,6 +85,7 @@ plugins:
     - jekyll/scholar
     - jemoji
     - jekyll-seo-tag
+    - jekyll-latex
 
 plugins: [jekyll-youtube]
     # This will require each of these gems automatically.
