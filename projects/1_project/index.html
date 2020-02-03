@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Daniel Pastor</title>
+  <title>Daniel Pastor | Koopman Eigenfunctions</title>
   <meta name="description" content="I am graduate student in Robotics at Caltech. 
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/projects/1_project/">
 </head>
 
 
@@ -85,56 +85,40 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>al-folio</h1>
-  <h2>a simple whitespace theme for academics</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Koopman Eigenfunctions</h1>
+    <h5 class="post-description">Discovering linear evolution of dynamical systems</h5>
+  </header>
+
+  <article class="post-content Koopman Eigenfunctions clearfix">
+    <p>This paper presents a novel episodic method to learn a robot’s nonlinear dynamics model and an increasingly optimal control sequence for a set of tasks.  The method is based on the {\em Koopman operator} approach to nonlinear dynamical systems analysis, which models the flow of {\em observables} in a function space, rather than a flow in a state space.  Practically, this method estimates a nonlinear diffeomorphism that lifts the dynamics to a higher dimensional space where they are linear.  Efficient Model Predictive Control methods can then be applied to the lifted model.  This approach allows for real time implementation in on-board hardware, with rigorous incorporation of both input and state constraints during learning. We demonstrate the method in a real-time implementation of fast quadrotor landing, where the nonlinear ground effect is learned and used to improve landing speed and quality.</p>
+
+<h4 id="references">References</h4>
+<p><span id="ACC2020">Folkestad, C., Pastor, D., Mezic, I., Mohr, R., Fonoberova, M., &amp; Burdick, J. W. (2020). <a href="https://arxiv.org/abs/1911.08751">Extended Dynamic Mode Decomposition with Learned Koopman Eigenfunctions for Prediction and Control</a>. In <i>Proc. American Control Conf.</i></span></p>
+
+<p><a href="https://github.com/Cafolkes/keedmd">Code</a></p>
+
+<p><span id="eKEEDMDicra20">Folkestad, C., Pastor, D., &amp; Burdick, J. W. (2020). Episodic Koopman Learning of Nonlinear Robot Dynamics 
+with Application to Fast Quadrotor Landing. In <i>Proc. International Conference of Robotics and Autonomy</i>.</span></p>
+
+<p><img src="/assets/img/landing_1.png" alt="d" /> <img src="/assets/img/landing_3.png" alt="d" /> <img src="/assets/img/landing_3.png" alt="d" /></p>
+
+<p><img src="/assets/img/eKEEDMD.png" alt="d" height="150px" /></p>
+
+<h4 id="video">Video</h4>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/hwSHLgly_bc" frameborder="0" allowfullscreen=""></iframe></div>
+
+  </article>
+
+  
+
+  
+
 </div>
-
-
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h2>
-      <p class="post-meta">October 20, 2015 — 08:59</p>
-      <p>an example of a blog post with comments</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/math/">a post with math</a></h2>
-      <p class="post-meta">October 20, 2015 — 08:12</p>
-      <p>an example of a blog post with some math</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/code/">a post with code</a></h2>
-      <p class="post-meta">July 15, 2015 — 08:09</p>
-      <p>an example of a blog post with some code</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/images/">a post with images</a></h2>
-      <p class="post-meta">May 15, 2015 — 14:01</p>
-      <p>this is what included images could look like</p>
-    </li>
-  
-</ul>
-
-
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <a class="pagination-item" href="/blog/page2/">Older</a>
-    
-  </div>
-  <div class="pagination-meta">Page 1 of 2</div>
-</div>
-
-
 
       </div>
     </div>
