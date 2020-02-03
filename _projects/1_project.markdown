@@ -21,6 +21,4 @@ This paper presents a novel episodic method to learn a robot's nonlinear dynamic
 
 #### Video
 
-$$ \int x $$
-
 {% youtube "https://youtu.be/hwSHLgly_bc" %}
